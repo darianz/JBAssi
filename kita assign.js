@@ -30,7 +30,7 @@ function doAdminOperation(user){
 }
 
 function validateAdmin(user){
-    return user.role === ADMIN;
+    return user.role == ADMIN;
 }
 
 function OperationNotAllowedError(ex){
